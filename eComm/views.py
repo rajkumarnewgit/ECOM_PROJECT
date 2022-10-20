@@ -36,11 +36,11 @@ def contact_page(request):
     customer_email = request.POST.get('email')
     content = request.POST.get('content')
 
-    receiver_email = 'chetanbhogade999@gmail.com'
+    receiver_email = 'harishkumart@gmail.com'
     if contact_form.is_valid():
         subject = 'Contact Form Submission - from eComm Website'
         message = f'Contact Form Submission.\n\nCustomer Full Name: - {full_name}\nCustomer Email: - {customer_email}\nCustomer Query: - {content} '
-        from_email = 'chetan.bhogade321@yahoo.com' 
+        from_email = 'harishkumat154@gmail.com' 
         to_list = [receiver_email]
 
         try:
