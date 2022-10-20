@@ -267,7 +267,7 @@ def advertise_product_view(request):
                 receivers_list = []
                 for user in all_users:
                     receivers_list.append(user.email)
-                from_email = 'chetan.bhogade321@yahoo.com'
+                from_email = 'harishkumart154@gmail.com'
                 message_body = f"{description}\n---------------------------------\nProduct Name: - {popular_product.title}\nProduct Description: - {popular_product.description}\nProduct Price: - {popular_product.price}/-\n---------------------------------\nView This Product: - http://127.0.0.1:8000/products/elitera-sunglasses/"
 
                 print(f"List of all users mail: - {receivers_list}")
